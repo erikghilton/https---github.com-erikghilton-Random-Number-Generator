@@ -1,4 +1,14 @@
 const count = document.querySelector(".count");
 const add = document.querySelector(".add");
-const reset = document.querySelector(".reset");
+const resetCount = document.querySelector(".reset");
 const sub = document.querySelector(".substract");
+
+add.addEventListener("click", () => {
+    count.innerHTML++;
+});
+sub.addEventListener("click", () => {
+    count.innerHTML--;
+});
+resetCount.addEventListener("click", () => {
+    count.innerHTML = 0;
+});
