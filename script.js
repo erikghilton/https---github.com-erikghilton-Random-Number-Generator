@@ -1,7 +1,7 @@
+// const add = document.querySelector(".add");
+// const resetCount = document.querySelector(".reset");
+// const sub = document.querySelector(".subtract");
 const count = document.querySelector(".count");
-const add = document.querySelector(".add");
-const resetCount = document.querySelector(".reset");
-const sub = document.querySelector(".subtract");
 const buttons = document.querySelector(".buttons");
 
 buttons.addEventListener("click", (e) => {
