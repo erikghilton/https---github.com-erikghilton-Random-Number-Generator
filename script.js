@@ -6,13 +6,13 @@ const buttons = document.querySelector(".buttons");
 
 buttons.addEventListener("click", (e) => {
     if (e.target.classList.contains("add")) {
-        console.log("Add");  
+        count.innerHTML++;  
     }
     if (e.target.classList.contains("subtract")) {
-        console.log("Subtract");  
+        count.innerHTML--;  
     }
     if (e.target.classList.contains("reset")) {
-        console.log("Reset");  
+        count.innerHTML = 0;  
     }
 });
 
